@@ -1,2 +1,2 @@
 # Museo-Virtual-
-Museo virtual de animales en peligro de extinción.
+Museo virtual de especies marinas en peligro de extinción.
