@@ -1,2 +1,2 @@
 # Museo-Virtual-
-Museo virtual de animales en peligro de extinsión.
+Museo virtual de animales en peligro de extinción.
