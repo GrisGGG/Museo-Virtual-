@@ -72,6 +72,14 @@ body{
     padding: 10px 60px;
     border-right: 1px solid;
 }
+section{
+    margin-top: 10px;
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
 footer{
     margin-top: 50px;
     height: 80px;
