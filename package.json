@@ -1,0 +1,23 @@
+{
+  "name": "museo-virtual-",
+  "version": "1.0.0",
+  "description": "Museo virtual de animales en peligro de extinsión.",
+  "workspaces" : ["lib"],
+  "main": "index.js",
+  "scripts": {
+    "server": "node ./lib/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrisGGG/Museo-Virtual-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrisGGG/Museo-Virtual-/issues"
+  },
+  "homepage": "https://github.com/GrisGGG/Museo-Virtual-#readme",
+  "devDependencies": {
+    "express": "^4.18.1"
+  }
+}
