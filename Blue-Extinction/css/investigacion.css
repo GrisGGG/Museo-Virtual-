@@ -14,17 +14,19 @@ ul{
 nav li, menu li{
     display: inline;
 }
-body{ 
-    background-color: rgb(255, 255, 255);
-    margin-left: 30px;
-    margin-right: 30px;
+body{
+    margin-bottom: 100px;
+}
+.contenido{
+    margin-left: 100px;
+    margin-right: 100px;
 }
 .lista-nav{
     height: 30px;
     display: flex;
     padding: 5px 0;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
     justify-content: space-between;
     /* margin-top: 10px; */
     background-color: aquamarine;
@@ -39,6 +41,19 @@ body{
 .logo_cabecera{
     border: 1px solid;
     height: 150px;
+    display: flex;
+}
+.fondo-cab{
+    width: 100%;
+}
+.contenido_logo{
+    position:absolute;
+    z-index: 1;
+    display: flex;
+}
+.logo_cabecera .mundo{
+    width: 200px;
+    height: 150px;
 }
 .lista-menu{
     margin-top: 10px;
@@ -48,6 +63,7 @@ body{
     /* background-color: gray; */
     border-top: 1px solid;
     border-bottom: 1px solid;
+    justify-content: space-around;
 }
 .lista-menu li{
     display: block;
@@ -57,6 +73,7 @@ body{
     border-right: 1px solid;
 }
 footer{
+    margin-top: 50px;
     height: 80px;
     padding-left: 15px;
     padding-right: 15px;
@@ -66,10 +83,12 @@ footer{
     width: 100%;
     background-color: aqua;
 }
-footer div ul{
-    padding-top: 10px;
-}
 footer div{
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
+}
+footer div img{
+    align-items: center;
+    width: 100px;
 }
