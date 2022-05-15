@@ -2,10 +2,12 @@
   "name": "museo-virtual-",
   "version": "1.0.0",
   "description": "Museo virtual de animales en peligro de extinsión.",
-  "workspaces" : ["lib"],
+  "workspaces": [
+    "lib"
+  ],
   "main": "index.js",
   "scripts": {
-    "server": "node ./lib/server.js"
+    "start:api": "npm run start --workspace=lib"
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,12 @@
   "homepage": "https://github.com/GrisGGG/Museo-Virtual-#readme",
   "devDependencies": {
     "express": "^4.18.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "lib": "file:lib",
+    "tedious": "^14.5.0",
+    "uuid": "^8.3.2"
   }
 }
