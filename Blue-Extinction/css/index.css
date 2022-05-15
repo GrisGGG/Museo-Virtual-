@@ -2,8 +2,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
     /* background-color: blue; */
-
 }
 a{
     text-decoration: none;
@@ -25,8 +25,7 @@ body{
     padding: 5px 0;
     padding-left: 3px;
     padding-right: 3px;
-    justify-content: space-between;
-    /* margin-top: 10px; */
+    justify-content: space-between;    
     background-color: aquamarine;
 }
 .lista-nav div li{
@@ -43,12 +42,70 @@ body{
 .lista-menu{
     margin-top: 10px;
     display: flex;
-    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     /* background-color: gray; */
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
-.lista-menu a{
+.lista-menu li{
     display: block;
+    /* height: 40px; */
     text-align: center;
     padding: 10px 60px;
-    border-right: 1px solid;   
+    border-right: 1px solid;
+}
+.grid-cont{
+    gap: 10px;
+    column-gap: 20px;
+    padding-top: 15px;
+    display: grid;
+    /* border: 1px solid; */
+    align-items: center;
+    justify-content: center;
+}
+.carrousel{
+    height: 450px;
+    width: 450px;
+    border: 1px solid;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+}
+.seccionB{
+    width: 450px;
+    height: 220px;
+    border: 1px solid;
+    grid-column: 2;
+}
+.seccionC{
+    width: 450px;
+    height: 220px;
+    border: 1px solid;
+}
+.tienda{
+    width: 450px;
+    height: 150px;
+    border: 1px solid;
+}
+.arte-plasmado{
+    width: 450px;
+    height: 150px;
+    border: 1px solid;
+}
+footer{
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+}
+footer div ul{
+    padding-top: 10px;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
 }
