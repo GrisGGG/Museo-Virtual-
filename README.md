@@ -1,4 +1,4 @@
-## MUSEO VIRTUAL ANIMALES EN pELIGRO DE EXTINSIÓN
+## MUSEO VIRTUAL ANIMALES EN PELIGRO DE EXTINSIÓN
 
 Proyecto que pretende que de manera interactiva los usuarios tengan acceso a información de interés sobre los animales maniros en peligro de extinguirse. Creemos que si los usuarios se familiarizan con ellos, podrán crear conciencia y se puede iniciar la conversación sobre el que debemos hacer para cuidarlos, como podemos ayudar y por qué afecta a el ecosistema que estos animales se extingan.
 
