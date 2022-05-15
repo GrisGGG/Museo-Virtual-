@@ -91,7 +91,7 @@ h1{
     flex-direction: columns;
     justify-content: center;
     align-items: center;
-    grid-template-columns: repeat(auto-fit,minmax(200px  ,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px  ,1fr));
     column-gap: 30px;
     
 }
@@ -100,7 +100,9 @@ h1{
     box-sizing: content-box; 
     width: 100%;
     height: 200px;
-    padding-top:30px;
+    margin-top:30px;
+    border: 0;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,3 +132,104 @@ h1{
     transition: opacity 0.5s;
 }
 
+.fondo_transparent{
+    background-color: rgbo(255, 255, 255,.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display:none;
+}
+.block-scroll {overflow:hidden;}
+#animal_info{
+    box-sizing:content-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px  ,1fr));
+    align-items: center;
+    justify-content:center;
+    margin-top: 10px;
+    border:10px;
+    border-radius: 15px;
+    border: 5px solid;
+    width: 85vw;
+    height:95vh;
+   
+    background-color:white;
+}
+.modal{
+ width: 100%;
+ height: 100%;
+ display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#animal_img{
+    width: 100%;
+    height: auto;
+    /* border-radius: 15px 0 0 15px; */
+}
+
+#info{
+    box-sizing: content-box;
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+    align-items:center;
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+#descripcion{
+    box-sizing: content-box;
+    display:flex;
+    /* width: 100%; */
+    height: auto;
+    flex-direction:column;
+    justify-content:left;
+    align-items:left;
+    padding:30px 0 20px 20px ;
+    font-size:20px;
+    background-color:aquamarine;
+}
+
+#nombres{
+    padding-top: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:left;
+    padding-bottom: 30px;
+    height: 50%;
+    width:100%;
+}
+#div_boton{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#boton{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:20px;
+    border:0;
+    width: 150px;
+    height: 50px;
+    background-color:#00A3FF;
+
+}
+#animalnomb{
+    font-size: 50px;
+    /* color: white; */
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    /* color: white; */
+    text-align: center;
+}
