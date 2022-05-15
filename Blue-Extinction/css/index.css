@@ -157,6 +157,10 @@ justify-content: center;
     border: 1px solid;
     background-color:white;
 }
+.seccionB:hover{
+    filter:blur(2px);
+    transition:filter  .5s;
+}
 .tienda{
     width: 450px;
     height: 150px;
