@@ -8,49 +8,72 @@
     <title>Inicio</title>
 </head>
 <body>
-    <nav>
-        <ul class="lista-nav">
-            <li>Bienvenido</li>
-            <div>
-            <li><a class="boletin" href=""><img src="img/ico/boletin.png" alt="boletin"><span>Únete al Boletín de Noticias</span></a></li>
-            <li><a class="facebook" href="https://www.facebook.com"><img src="../Blue-Extinction/img/ico/facebook.png" alt="facebook"></a></li>
-            <li><a class="twitter" href="https://www.twitter.com"><img src="../Blue-Extinction/img/ico/twitter.png" alt="twitter"></a></li>
-            <li><a class="instagram" href="https://www.instagram.com"><img src="../Blue-Extinction/img/ico/instagram.png" alt="instagram"></a></li>
-            <li><a class="youtube" href="https://www.youtube.com"><img src="../Blue-Extinction/img/ico/youtube.png" alt="youtube"></a></li>
-            </div>
-            <div>
-                <input type="buscador" name="busqueda" placeholder="Buscar">
-                <input type="submit" value="Buscar">
-            </div>
-        </ul>
-    </nav>
-    <div class="logo_cabecera">
-        <a href="index.html">
-            <img title="Logo" src="" alt="logo">
-        </a>
-    </div>
-    <menu>
-        <ul class="lista-menu">
-            <li><a href="html/actividades.html">Actividades</a></li>
-            <li><a href="html/fundacion.html">Fundación</a></li>
-            <li><a href="Html/exposicion.html">Exposición</a></li>
-            <li><a href="html/el-museo.html">El Museo</a></li>
-            <li class="5"><a href="html/investigacion.html">Investigación</a></li>
-        </ul>
-    </menu>
     
-    <div class="grid-cont">
-        <div class="carrousel"></div>
+        <nav>
+            <ul class="lista-nav">
+                <li>Bienvenido</li>
+                <div>
+                <li><a class="boletin" href=""><img src="img/ico/boletin.png" alt="boletin"><span>Únete al Boletín de Noticias</span></a></li>
+                <li><a class="facebook" href="https://www.facebook.com"><img src="../Blue-Extinction/img/ico/facebook.png" alt="facebook"></a></li>
+                <li><a class="twitter" href="https://www.twitter.com"><img src="../Blue-Extinction/img/ico/twitter.png" alt="twitter"></a></li>
+                <li><a class="instagram" href="https://www.instagram.com"><img src="../Blue-Extinction/img/ico/instagram.png" alt="instagram"></a></li>
+                <li><a class="youtube" href="https://www.youtube.com"><img src="../Blue-Extinction/img/ico/youtube.png" alt="youtube"></a></li>
+                </div>
+                <div>
+                    <input type="buscador" name="busqueda" placeholder="Buscar">
+                    <input type="submit" value="Buscar">
+                </div>
+            </ul>
+        </nav>
+    <div class="contenido">
+        <div class="logo_cabecera">
+            <a href="index.html">
+                <img title="Logo" src="" alt="logo">
+            </a>
+        </div>
+        <menu>
+            <ul class="lista-menu">
+                <li><a href="html/actividades.html">Actividades</a></li>
+                <li><a href="html/fundacion.html">Fundación</a></li>
+                <li><a href="Html/exposicion.html">Exposición</a></li>
+                <li><a href="html/el-museo.html">El Museo</a></li>
+                <li class="5"><a href="html/investigacion.html">Investigación</a></li>
+            </ul>
+        </menu>
         
-        <div class="seccionB"></div>
+        <div class="grid-cont">
+            <div class="slider">
+                <div class="cont">
+                    <div class="slider fade">
+                        <img src="img/tortuga.jpg" alt="">
+                    </div>
+                    <div class="slider fade">
+                        <img src="img/tubo.jpg" alt="">
+                    </div>
+                    <div class="slider fade">
+                        <img src="img/bolsa.jpg" alt="">
+                    </div>
+                    <div class="direcciones">
+                        <a href="" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                        <a href="" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+                    </div>
+                    <div class="barras">
+                        <span class="barra activ" onclick="posicionSlide(1)"></span>
+                        <span class="barra" onclick="posicionSlide(2)"></span>
+                        <span class="barra" onclick="posicionSlide(3)"></span>
+                    </div>
+                </div>    
+            </div>
+                
+            <div class="seccionB"></div>
 
-        <div class="seccionC"></div>
-        
-        <div class="tienda"></div>
+            <div class="seccionC"></div>
+            
+            <div class="tienda"></div>
 
-        <div class="arte-plasmado"></div>
+            <div class="arte-plasmado"></div>
+        </div>
     </div>
-
     <footer>
         <div>
             <ul>
