@@ -14,10 +14,12 @@ ul{
 nav li, menu li{
     display: inline;
 }
-body{ 
-    background-color: rgb(255, 255, 255);
-    margin-left: 30px;
-    margin-right: 30px;
+.contenido{
+/* display: flex; */
+margin-left: 50px;
+margin-right: auto;
+/* align-items: center; */
+justify-content: center;
 }
 .lista-nav{
     height: 30px;
@@ -39,7 +41,12 @@ body{
     border: 1px solid;
     height: 150px;
 }
+/* menu{
+    width: 80em;
+    margin: 0 auto;
+} */
 .lista-menu{
+    /* height: 4.3em; */
     margin-top: 10px;
     display: flex;
     padding-top: 10px;
@@ -47,13 +54,15 @@ body{
     /* background-color: gray; */
     border-top: 1px solid;
     border-bottom: 1px solid;
+    justify-content: space-around;
 }
 .lista-menu li{
-    display: block;
+    /* display: flex; */
     /* height: 40px; */
     text-align: center;
     padding: 10px 60px;
     border-right: 1px solid;
+    justify-content: space-around;
 }
 .grid-cont{
     gap: 10px;
@@ -64,12 +73,77 @@ body{
     align-items: center;
     justify-content: center;
 }
-.carrousel{
+.slider{
     height: 450px;
     width: 450px;
     border: 1px solid;
     grid-column: 1;
     grid-row: 1 / span 2;
+}
+.cont{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    overflow: hidden;
+    /* margin: auto; */
+    width: 100%;
+    height: 450px;
+}
+.cont img{
+    width: 450px;
+    height: 450px;
+    /* height: inherit; */
+    object-fit: cover;
+    vertical-align: top;
+    transition: 2s;
+}
+.direcciones{
+    position: absolute;
+    display: flex;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+.direcciones a{
+    color: #fff;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+}
+.direcciones a:hover{
+    background: rgba(0, 0, 0, 0.5);
+    transition: .5s;
+}
+.barras{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.barra{
+    cursor: pointer;
+    height: 3px;
+    width: 25px;
+    margin: 0 2px;
+    background: #dcdde1;
+    display: inline-block;
+    margin-left: 5px;
+}
+.activ{
+    background-color: #2ecc71;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 2s;
+}
+@keyframes fade{
+    from {opacity: .4;}
+    to{opacity: 1;}
 }
 .seccionB{
     width: 450px;
@@ -93,6 +167,7 @@ body{
     border: 1px solid;
 }
 footer{
+    margin-top: 50px;
     height: 80px;
     padding-left: 15px;
     padding-right: 15px;
