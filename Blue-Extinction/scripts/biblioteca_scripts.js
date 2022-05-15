@@ -1,4 +1,6 @@
 var animal=1;
+var valscroll=0;
+var numscroll=2;
 const pokemon=(pokeId,value)=>{
     
     const url='https://pokeapi.co/api/v2/pokemon/'+pokeId;
@@ -19,6 +21,7 @@ const pokemon=(pokeId,value)=>{
         let pokename=data.forms[0].name;
         let pokeno=data.id;
         id=pokeno;
+        console.log(id);
         let poketype=data.types[0].type.name;
 
     
@@ -31,7 +34,8 @@ const pokemon=(pokeId,value)=>{
 }
 const animalID=()=>{
     for(let i=1;i<=9;i++){
-    pokemon(i,0);
+        var id=valscroll+i;
+    pokemon(id,0);
     }
 } 
 const animalInfo=()=>{
@@ -87,3 +91,16 @@ const animInfo=(imagen,nombre,datos)=>{
     dat.innerText=(datos);
 
 }
+window.onscroll=function(){
+    console.log(window.scrollY);
+    // console.log(screen.height);
+    console.log(window.innerHeight);
+    var scroll=window.scrollY;
+    var tam=window.innerHeight*numscroll;
+    if(tam-scroll >=200){
+        valscroll=valscroll+9;
+        numscroll=numscroll+1;
+        animalID();
+    }
+
+};
