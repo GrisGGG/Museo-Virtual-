@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./../css/biblioteca_style.css">
     <title>Document</title>
+
 </head>
 <body>
     <nav>
@@ -40,27 +41,40 @@
     </menu>
     <section id="page">
         <div id="titulo"><h1>Biblioteca</h1></div>
-        <section class="lista ">
-            <div class="img_div"><p >Ajolote</p><img src="./../img/Ajolote.jpg" alt="animal" class="img" /></div>
-            <div class="img_div"><p >Ajolote</p><img src="./../img/Ajolote.jpg" alt="animal" class="img" /></div>
-            <div class="img_div"><p >Ajolote</p><img src="./../img/Ajolote.jpg" alt="animal" class="img" /></div>
+        <section class="lista " id="lista_animal">
         </section>
-        
-        <section class="lista ">
-            <div class="img_div"><p >Ajolote</p><img src="./../img/Ajolote.jpg" alt="animal" class="img" /></div>
-            <div class="img_div"><p >Ajolote</p><img src="./../img/Ajolote.jpg" alt="animal" class="img" /></div>
-            <div class="img_div"><p >Ajolote</p><img src="./../img/Ajolote.jpg" alt="animal" class="img" /></div>
+    </section>
+    <section class="fondo_transparent">
+       <section class="modal"> <section id="animal_info">
+            <div><img src="./../img/ajolote_v.jpg" id="animal_img"/></div>
+            <section id="info">
+                <section id="nombres">
+                    <h1 id="animalnomb">Ajolote</h1>
+                    <br>
+                    <h2 id="nombresc">Ambystoma mexicanum</h2>
+                </section>
+                <section id="descripcion">
+                    <p id="datos">Datos</p>
+                    <br>
+                    <p id="ubicacion">Ubicacion</p>
+                    <br>
+                    <p id="habitat">Habitat</p>
+                    <br>
+                    <p id="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    In amet saepe nulla sed id, molestias sapiente sunt distinctio sint cumque eos unde consequatur doloremque exercitationem voluptatum quos, tempore, similique natus repellendus repudiandae laudantium expedita perferendis ea inventore. 
+                    Nostrum placeat enim illum cumque distinctio ipsam quos sequi tempora. Et, expedita similique!</p>
+                    <div id="div_boton"><button id="boton" onclick="closeventModal();">Regresar</button></div>
+                </section>
+            </section>
         </section>
-        <section class="lista ">
-            <div class="img_div"><p >Ajolote</p><img src="./../img/Ajolote.jpg" alt="animal" class="img" /></div>
-            <div class="img_div"><p >Ajolote</p><img src="./../img/Ajolote.jpg" alt="animal" class="img" /></div>
-            <div class="img_div"><p >Ajolote</p><img src="./../img/Ajolote.jpg" alt="animal" class="img" /></div>
-        </section>
-      
+    </section>
     </section>
 
     <footer>
+        <script src="./../scripts/biblioteca_scripts.js">
+        </script>
         <ul>
+            <script src="./../scripts/biblioteca_scripts.js"></script>
             <li>Museo Marino Blue Extinction</li>
             <li>México</li>
             <li>blue.extinction@cultura.mx</li>
