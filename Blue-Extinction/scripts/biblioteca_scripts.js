@@ -20,16 +20,30 @@ const pokemon=(pokeId,value)=>{
         console.log(pokeurl);
         let pokename=data.forms[0].name;
         let pokeno=data.id;
+        let pokehab=data.abilities[0].ability.name;
         id=pokeno;
         console.log(id);
         let poketype=data.types[0].type.name;
+        let pokealt=data.height;
 
     
         if(value==0){animalIMG(pokeurl,pokeId,pokename);}
-        else{animInfo(pokeurl,pokename,poketype);}
+        else{animInfo(pokeurl,pokename,poketype,pokehab,pokealt);}
         
       
     });//es una funcion para hacer peticiones a una api
+    // fetch(urldesc).then((res)=>{
+    //     return res.json();}).then((data)=>{
+    
+    //         let val=0;
+    //         for(let i=0; data.flavor_text_entries[i].language.name != 'es'; i++){
+    //             val=i;
+    //         }
+    //         val++;
+    //         let descripcion=data.flavor_text_entries[val].flavor_text;
+    //         animalDesc(descripcion);
+
+    //     });
 
 }
 const animalID=()=>{
@@ -57,6 +71,11 @@ closeventModal=()=>{
     body.classList.remove('block-scroll');
 }
 
+// const animalDesc=(descripcion)=>{
+//     const desc=document.getElementById('descripcion');
+//     desc.innerHTML=(descripcion);
+// }
+
 const animalIMG=(url,id,name)=>{
     const newdiv=document.createElement('button');
     newdiv.classList.add('img_div');
@@ -82,13 +101,17 @@ const animalIMG=(url,id,name)=>{
 
 }
 
-const animInfo=(imagen,nombre,datos)=>{
+const animInfo=(imagen,nombre,datos,habitat,ubicacion)=>{
     const na=document.getElementById('animalnomb');
     na.innerText=(nombre);
     const img=document.getElementById('animal_img');
     img.src=(imagen);
     const dat=document.getElementById('datos');
     dat.innerText=(datos);
+    const hab=document.getElementById('habitat');
+    hab.innerText=(habitat);
+    const ubi=document.getElementById('ubicacion');
+    ubi.innerText=(ubicacion);
 
 }
 window.onscroll=function(){
