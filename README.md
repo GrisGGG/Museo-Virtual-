@@ -5,13 +5,14 @@ Proyecto que pretende que de manera interactiva los usuarios tengan acceso a inf
 Nuestra intención es crear una sitio web donde los usuarios puedan observar información como primera fase el diseño solo busca informar y presentar la información requerida. La segunda parte de este proyecto es la creación de una API, con datos de estos animalitos, para que más desarrolladores puedan aplicarlo a su proyecto.
 
 ### Requerimientos
-Requerimientos:
-Frontend
+
+#### Frontend
 1. Diseño de las vistas del sitio web
 2. Implementación del diseño con las  tecnologías html y csss
 3. Características de funcionalidad, botones, transiciones.
 4. Conexión a la API
-Backend
+
+#### Backend
 1. Delimitación de los atributos de la bd
 2. Creación de la b.d
 3. Creación de enpoints para la consulta de datos
@@ -29,3 +30,11 @@ Backend
 
 ### Estructura del proyecto
 
+#### Frontend
+
+
+
+
+#### Backend
+API
+<img width="1247" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/Directorios.png?raw=true">
