@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* background-color: blue; */
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+nav li, menu li{
+    display: inline;
+}
+body{ 
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 120px;
+}
+.lista-nav{
+    height: 30px;
+    display: flex;
+    padding: 5px 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    background-color: aquamarine;
+}
+.lista-nav div li{
+    margin-left: 10px;
+}
+.lista-nav img{
+    margin-bottom: -3px;
+    width: 20px;
+}
+.logo_cabecera{
+    border: 1px solid;
+    height: 150px;
+}
+.lista-menu{
+    margin-top: 10px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: gray; */
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lista-menu li{
+    display: block;
+    text-align: center;
+    padding: 10px 60px;
+    border-right: 1px solid;
+}
+section{
+    padding-top: 15px;
+}
+.layer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 580px;
+    align-items: center;
+}
+.layer p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    height: 50px;
+    width: 650px;
+}
+.grid-pres{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding-top: 50px;
+    text-align: center;
+}
+.grid-pres .ca, .bb, .cp{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 50px;
+   width: 300px;
+   border: 1px solid;
+}
+footer{
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aqua;
+}
+footer div ul{
+    padding-top: 10px;
+}
+footer div{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*mi codigo*/
+.ayudar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo{
+    width: 80%;
+    height: auto;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo h1{
+    font-size: 50px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.titulo p{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.steps{
+    width: 80%;
+    height: auto;
+    /* background-color:grey; */
+}
+.steps ul li {
+    width: 100%;
+    height: 400;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background-color:aquamarine;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.num{
+    padding-left:40px;
+    width: 20%;
+    height: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: start;	
+    justify-content: start;
+    font-size: 30px;
+    /* background-color:black; */
+}
+.paso h1{
+    font-size: 20px;
+
+}
+
+.boton{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.boton button{
+    width: 20%;
+    height: 50px;
+    background-color: aquamarine;
+    border: 0px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+}
