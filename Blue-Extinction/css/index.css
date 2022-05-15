@@ -159,6 +159,11 @@ body{
     height: 220px;
     border: 1px solid;
     grid-column: 2;
+   background-color:white;
+}
+.seccionB:hover{
+    filter:blur(2px);
+    transition:filter  .5s;
 }
 .seccionC{
     width: 450px;
