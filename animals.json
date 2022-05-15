@@ -1,0 +1,52 @@
+[
+    {
+        "nameComun": "Totoaba",
+        "nameScientist": "Totoaba macdonaldi",
+        "type": "Actinopterygii",
+        "urlImage": "https://static.wikia.nocookie.net/dinosaurs/images/b/b5/Guiyu_BW.jpg/revision/latest?cb=20141027005720",
+        "habitat": "Alto Golfo de California",
+        "description" : "Tiene el cuerpo alargado, comprimido, boca puntiaguda y grande, mandíbula inferior saliente, mandíbula inferior sin barbillas, dientes en bandas angostas, un poco agrandados y cónicos en la fila externa de la mandíbula superior, incluyendo unos pocos dientes puntiagudos al extremo de la mandíbula; fila interna de dientes de la mandíbula inferior ligeramente más grandes que los de la fila externa, margen del preopérculo casi liso. Su aleta caudal termina en punta al centro. Puede alcanzar los 2 metros de longitud y pesar más de 100 kg"
+    },{
+        "nameComun": "Vaquita marina",
+        "nameScientist": " Phocoena sinus",
+        "type": "P. sinus",
+        "urlImage": "http://www.chiledesarrollosustentable.cl/wp-content/uploads/2017/05/vaquita-2-0517.jpg",
+        "habitat": "Baja California, México ",
+        "description" : "Mide 150 cm de largo y pesa hasta 50 kg. La vaquita marina es la más pequeña de las marsopas y de todos los cetáceos, es robusta, sus aletas son proporcionalmente más largas y cóncavas (parte anterior) y su aleta dorsal es alta, triangular y ligeramente falcada."
+    },{
+        "nameComun": "León marino de Steller",
+        "nameScientist": "Eumetopias jubatus",
+        "type": "Familia de las focas y las morsas",
+        "urlImage": "https://lpfw.org/wp-content/uploads/2017/12/Stellar-Sea-Lion_Rylee-Isitt.png",
+        "habitat": "Costas rocosas y aguas costeras del norte del Pacífico",
+        "description" : "Los leones marinos de Steller son cazadores marinos muy hábiles y oportunistas. Habitando las frías aguas árticas del Océano Pacífico Norte, se aprovechan de una amplia gama de especies de peces, como salmón, fletán, bacalao, arenque y pez roca, junto con varias especies de cefalópodos como el calamar y el pulpo. Al estar cerca de la parte superior de la cadena alimentaria marina, los leones marinos Steller generalmente solo son susceptibles a la depredación por parte de humanos, orcas y grandes tiburones blancos."
+    },{
+        "nameComun": "Delfín de cabeza blanca ",
+        "nameScientist": "Cephalorhynchus hectori",
+        "type": "Mammalia",
+        "urlImage": "https://okdiario.com/img/2018/10/16/como-se-desplazan-los-delfines.jpg",
+        "habitat": "Mares de Nueva Zelanda",
+        "description" : " Los ejemplares adultos tienen en promedio 120 a 140 cm de longitud, y un peso de 50 kg; tienen una aleta dorsal redondeada, y presentan flancos grises y vientre blanco. El delfín realiza cortas zambullidas de hasta 90 s para alimentarse con crustáceos o pequeños peces en el fondo del mar."
+    },{
+        "nameComun": "Pez Napoleón",
+        "nameScientist": "Cheilinus undulatus",
+        "type": "Actinopterygii",
+        "urlImage": "https://www.oceanografic.org/wp-content/uploads/2018/07/Pez_Napoleon-op.jpg",
+        "habitat": "Escudos coralinos, entre 1 y 60 m de profundidad. Se encuentra en el Pacífico y en el mar Rojo.",
+        "description" : "Los individuos adultos son de color verde y presentan una protuberancia en la frente que recuerda una giba. Su tamaño máximo es de 2 m y su peso máximo de 190 kg. Es un animal territorial y solitario. Durante el día suele nadar cerca del arrecife sin hacer grandes desplazamientos, y durante la noche busca alguna cueva para descansar. Hay ejemplares de más de 30 años, se cree que los machos pueden llegar a vivir 25 años y las hembras hasta 32.Es un carnívoro que se alimenta de moluscos, crustáceos y equinodermos, capaz de comer presas tóxicas. Es un pez ovíparo y hermafrodita (naciendo como hembras). Las hembras adultas pueden cambiar de sexo y pasar a ser machos. Cuando llega la época de reproducción forman grupos más o menos numerosos y realizan la puesta en mar abierto."
+    },{
+        "nameComun": "Tiburón ballena",
+        "nameScientist": "Rhincodon typus",
+        "type": "Chondrichthyes",
+        "urlImage": "https://www.mexicodesconocido.com.mx/wp-content/uploads/2010/07/Tiburon-ballena_Deposit-Photos_1920x1280.jpg",
+        "habitat": "Oceános y mares cálidos(cerca de los trópicos), aunque han sido vistos en aguas frías.",
+        "description" : "Su tamaño lo convierte en el animal más grande del mundo,llegando a medir más de 12 metros de largo y pesando 34 toneladas. Se alimenta principalmente de plancton, filtrándolo a través de sus branquias cartilaginosas y tragando miles de litros de agua por hora. En su dieta también predominan los peces pequeños, crustáceos y calamares. Un tiburón ballena puede tener en torno a 300 crías, que nacen midiendo entre 60 y 70 cm y son presa potencial de otros peces y tiburones. Si bien tardan aproximadamente  25 años en madurara, llegan a vivir hasta 80 o 100 años, lo que los convierte en uno de los animales más longevos. Por lo general, es un animal solitario, es raro verlos en grupos.La degradación de los hábitats costeros y marinos es una de las principales amenazas del tiburón ballena. El incremento del turismo en estas zonas y el tránsito de embarcaciones interrumpen sus hábitos alimenticios y les causan lesiones cuando chocan con embarcaciones. Otra de las amenazas que sufre esta especie marina es la pesca masiva ya que, el tiburón ballena, está considerado una delicadeza en la alimentación de muchas zonas del planeta."
+    },{
+        "nameComun": "Pingüino de Magallanes",
+        "nameScientist": "Spheniscus magellanicus",
+        "type": "Ave",
+        "urlImage": "https://storage.googleapis.com/oceanwide_web/media-dynamic/cache/widen_1600/media/default/0001/05/bf694f45cf20dc18248c89478905b7f437b47aea.jpeg",
+        "habitat": "Principalemente costas de Argentina, Chile y las Islas Malvinas. Extremo sur de América del Sur.",
+        "description" : "Reciben su nombre del explorador portugués Fernando de Magellanes, cuya tripulación los divisó por primera vez mientras navegaba por el extremo de América del Sur durante su histórico, y controvertido, intento por circunnavegar el mundo en 1519. Son criaturas de hábitos. No solo forman pareja de por vida, sino que también regresan al mismo lugar de anidación desde el cual empollan a sus pequeños durante cada época reproductiva, que va desde septiembre hasta mediados de abril. Generalmente, las colonias de pingüinos se instalan en áreas costeras y buscan construir sus nidos en aquellos lugares en los que los arbustos y otros tipos de vegetación puedan proveerles protección. Cuando la época reproductiva llega a su fin, los pingüinos de Magallanes migran al norte por el invierno a climas más cálidos en Perú y Brasil, donde, generalmente, se los puede encontrar nadando a cientos de kilómetros de la costa. Para algunos, este viaje migratorio puede ser de 6437 kilómetros. Se encuentran amenazados debido a derrames de petróleo, perdida de peces como alimento, al quedar atrapados en redes pesqueras, además del cambio climático al inundar sus nidos o al ahuyentar sus presas."
+    }
+]
