@@ -37,9 +37,27 @@ body{
     margin-bottom: -3px;
     width: 20px;
 }
+.contenido{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.contenido_logo{
+    position:absolute;
+    z-index: 1;
+    display: flex;
+}
+.logo_cabecera .mundo{
+    width: 200px;
+    height: 150px;
+}
 .logo_cabecera{
     border: 1px solid;
     height: 150px;
+    display: flex;
+}
+.fondo-cab{
+    width: 100%;
+    
 }
 .lista-menu{
     margin-top: 10px;
