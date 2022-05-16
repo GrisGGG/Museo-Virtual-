@@ -60,9 +60,11 @@ API
         {name: 'tipo', type: TYPES.VarChar, value: tipo},
         {name: 'habitat', type: TYPES.VarChar, value: habitat},
         {name: 'description', type: TYPES.VarChar, value: description},
-        {name: 'urlImage', type: TYPES.VarChar, value: urlImage}`
-        
-        <img width="1000" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/bd_animalesMarinos.png?raw=true">
+        {name: 'urlImage', type: TYPES.VarChar, value: urlImage}
+  `
+       
+       
+ <img width="1000" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/bd_animalesMarinos.png?raw=true">
 
 3. Servidor corriendo `index.js`
 
@@ -87,8 +89,11 @@ API
 5. Despiegue de la API
   El despliegue de la Api se intento hacer a travez se azure services, pero tuvimos errores que no alcanzamos a reparar.
    <img width="1000" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/intento_despliegue-API.png?raw=true">
+   
+   
+   
 7. Despliegue del sitio
-  Nuestro sitio fue desplegado éxitosamente, puedes encontrarlo en aquí
+  Nuestro sitio fue desplegado éxitosamente, puedes encontrarlo en aquí  <a href="https://blueextinction.azurewebsites.net/" target="_blank">
   
 
 
