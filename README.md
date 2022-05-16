@@ -44,11 +44,11 @@ API
 ### Tecnologias Utilizadas 
 1. html
 2. css
-3.Express
+3. Express
 4. tedious
 5. cors
 6. sql azure
-7. desplegamos la aplicación en azzure
+7. desplegamos la aplicación en azure
 
 
 
