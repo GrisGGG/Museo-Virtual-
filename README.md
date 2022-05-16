@@ -42,15 +42,14 @@ API
 <img width="1247" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/Directorios.png?raw=true">
 
 ### Tecnologias Utilizadas 
--html
--css
--Express
--tedious
--cors
--sql azure
--desplegamos la aplicación en azzure
--dotenv
--uui
+1. html
+2. css
+3.Express
+4. tedious
+5. cors
+6. sql azure
+7. desplegamos la aplicación en azzure
+
 
 
 ### Evidencias del proceso de creación del proyecto
