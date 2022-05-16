@@ -66,11 +66,14 @@ body{
     border-bottom: 1px solid;
     justify-content: space-around;
 }
-.lista-menu li{
-    display: block;
-    text-align: center;
-    padding: 10px 60px;
+.lista-menu li a{
+    display: flex;
+    padding: 10px 128.5px;
     border-right: 1px solid;
+    justify-content: center;
+} 
+.lista-menu li:hover{
+    background: rgba(102, 235, 206, 0.562);
 }
 section{
     margin-top: 10px;
