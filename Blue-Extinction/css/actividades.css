@@ -76,6 +76,14 @@ body{
 .lista-menu li:hover{
     background: rgba(102, 235, 206, 0.562);
 }
+section{
+    margin-top: 10px;
+    /* border: 1px solid; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
 footer{
     margin-top: 50px;
     height: 80px;
