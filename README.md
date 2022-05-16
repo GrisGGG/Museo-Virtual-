@@ -19,10 +19,6 @@ Nuestra intención es crear una sitio web donde los usuarios puedan observar inf
 1. Delimitación de los atributos de la bd
 2. Creación de la b.d
 3. Conexión a la bd
-
-
-<img width="1000" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/servidor-corriendo.png?raw=true">
-
 4. Creación de enpoints para la consulta de datos  `animalesMarinos.Controller`
 
 | Endpoint | Método | Response |
@@ -32,9 +28,9 @@ Nuestra intención es crear una sitio web donde los usuarios puedan observar inf
 | `/` | `POST` | Habilitar un endpoint para agregar animalitos. |
 | `/:id` | `POST` | Endport para borrar animalitos segun su id|
 
-4. Conexión y modelo de la API a la bd
-5.  Despliegue del sitio
-6. Despiegue de la API
+5. Conexión y modelo de la API a la bd
+6.  Despliegue del sitio
+7. Despiegue de la API
 
 ### Estructura del proyecto
 
@@ -56,13 +52,13 @@ API
 
 
 ### Tecnologias Utilizadas 
-1. html
-2. css
+1. Html
+2. Css
 3. Express
 4. tedious
-5. cors
-6. sql azure
-7. desplegamos la aplicación en azure
+5. Cors
+6. Sql azure
+7. Azure Services
 
 
 
