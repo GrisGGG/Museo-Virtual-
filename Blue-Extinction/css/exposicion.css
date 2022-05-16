@@ -16,6 +16,7 @@ ul{
 }
 nav li, menu li{
     display: inline;
+    font-size: 20px;
 }
 .contenido{
     margin-left: 100px;
