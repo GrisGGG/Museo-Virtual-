@@ -1,5 +1,8 @@
 ## MUSEO VIRTUAL ANIMALES EN PELIGRO DE EXTINSIÓN
 
+ Nuestro sitio fue desplegado éxitosamente, puedes encontrarlo  <a href="https://blueextinction.azurewebsites.net/" target="_blank"> AQUÍ </a>
+
+
 Proyecto que pretende que de manera interactiva los usuarios tengan acceso a información de interés sobre los animales maniros en peligro de extinguirse. Creemos que si los usuarios se familiarizan con ellos, podrán crear conciencia y se puede iniciar la conversación sobre el que debemos hacer para cuidarlos, como podemos ayudar y por qué afecta a el ecosistema que estos animales se extingan.
 
 Nuestra intención es crear una sitio web donde los usuarios puedan observar información como primera fase el diseño solo busca informar y presentar la información requerida. La segunda parte de este proyecto es la creación de una API, con datos de estos animalitos, para que más desarrolladores puedan aplicarlo a su proyecto.
@@ -18,7 +21,7 @@ Nuestra intención es crear una sitio web donde los usuarios puedan observar inf
 3. Conexión a la bd
 
 
-<img width="1000" alt="image" src=""https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/servidor-corriendo.png?raw=true>
+<img width="1000" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/servidor-corriendo.png?raw=true">
 
 4. Creación de enpoints para la consulta de datos  `animalesMarinos.Controller`
 
@@ -37,9 +40,20 @@ Nuestra intención es crear una sitio web donde los usuarios puedan observar inf
 
 #### Frontend
 
+
+<img width="1247" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/directorios-frontend.png?raw=true">
+
+
 #### Backend
 API
 <img width="1247" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/Directorios.png?raw=true">
+
+### El proyecto funciona así
+
+
+<img width="1247" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/DiagramaProyecto.png?raw=true">
+
+
 
 ### Tecnologias Utilizadas 
 1. html
@@ -104,7 +118,7 @@ API
    
    
 7. Despliegue del sitio
-  Nuestro sitio fue desplegado éxitosamente, puedes encontrarlo  <a href="https://blueextinction.azurewebsites.net/" target="_blank"> AQUÍ </>
+  Nuestro sitio fue desplegado éxitosamente, puedes encontrarlo  <a href="https://blueextinction.azurewebsites.net/" target="_blank"> AQUÍ </a>
   
 
 
