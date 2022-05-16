@@ -85,7 +85,7 @@ body{
 .slider{
     height: 450px;
     width: 450px;
-    border: 1px solid;
+    /*border: 1px solid;*/
     grid-column: 1;
     grid-row: 1 / span 2;
 }
@@ -157,7 +157,7 @@ body{
 .seccionB{
     width: 450px;
     height: 220px;
-    border: 1px solid;
+    /*border: 1px solid;*/
     grid-column: 2;
    background-color:white;
 }
@@ -168,17 +168,17 @@ body{
 .seccionC{
     width: 450px;
     height: 220px;
-    border: 1px solid;
+    /*border: 1px solid;*/
 }
 .tienda{
     width: 450px;
     height: 150px;
-    border: 1px solid;
+    /*border: 1px solid;*/
 }
 .arte-plasmado{
     width: 450px;
     height: 150px;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 footer{
     margin-top: 50px;
