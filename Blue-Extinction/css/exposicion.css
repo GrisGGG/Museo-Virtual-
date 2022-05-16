@@ -8,6 +8,9 @@
 a{
     text-decoration: none;
 }
+body{
+      margin-bottom: 100px;
+}
 ul{
     list-style-type: none;
 }
