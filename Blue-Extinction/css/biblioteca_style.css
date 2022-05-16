@@ -8,6 +8,7 @@
 a{
     text-decoration: none;
 }
+
 ul{
     list-style-type: none;
 }
@@ -51,6 +52,12 @@ body{
     width: 200px;
     height: 150px;
 }
+
+.fondo-cab{
+    width: 100%;
+    
+}
+
 .logo_cabecera{
     border: 1px solid;
     height: 150px;
@@ -59,9 +66,14 @@ body{
 .lista-menu{
     margin-top: 10px;
     display: flex;
-    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     /* background-color: gray; */
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    justify-content: space-around;
 }
+
 menu{
     display: flex;
     flex-direction: column;
@@ -74,6 +86,7 @@ menu{
     border-right: 1px solid;
 }
 footer{
+    margin-top: 50px;
     height: 80px;
     padding-left: 15px;
     padding-right: 15px;
@@ -83,12 +96,14 @@ footer{
     width: 100%;
     background-color: aqua;
 }
-footer div ul{
-    padding-top: 10px;
-}
 footer div{
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
+}
+footer div img{
+    align-items: center;
+    width: 100px;
 }
 /*mi codigo*/
 #page{
@@ -108,7 +123,7 @@ footer div{
     /* padding-top: 1vh ; */
 }
 
-h1{
+.animalnomb{
     font-size: 5vw;
     color: black;
     font-family: 'Roboto', sans-serif;
@@ -151,11 +166,6 @@ h1{
     transition: opacity 0.5s;
     
 }
-.fondo-cab{
-    width: 100%;
-    
-}
-
 .img_div p{
     position: absolute;
     font-size:40px;
