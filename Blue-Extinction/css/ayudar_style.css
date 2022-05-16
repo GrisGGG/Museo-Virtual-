@@ -114,6 +114,7 @@ section{
    border: 1px solid;
 }
 footer{
+    margin-top: 50px;
     height: 80px;
     padding-left: 15px;
     padding-right: 15px;
@@ -123,12 +124,14 @@ footer{
     width: 100%;
     background-color: aqua;
 }
-footer div ul{
-    padding-top: 10px;
-}
 footer div{
+    padding-top: 10px;
     display: flex;
     justify-content: space-between;
+}
+footer div img{
+    align-items: center;
+    width: 100px;
 }
 
 /*mi codigo*/
