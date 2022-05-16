@@ -75,7 +75,7 @@ body{
 section{
     margin-top: 10px;
     width: 80%;
-    border: 1px solid;
+    /*border: 1px solid;*/
     display: flex;
     margin-left: auto;
     margin-right: auto;
