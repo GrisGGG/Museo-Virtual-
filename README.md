@@ -41,6 +41,18 @@ Nuestra intención es crear una sitio web donde los usuarios puedan observar inf
 API
 <img width="1247" alt="image" src="https://github.com/GrisGGG/Museo-Virtual-/blob/main/assets/Directorios.png?raw=true">
 
+### Tecnologias Utilizadas 
+-html
+-css
+-Express
+-tedious
+-cors
+-sql azure
+-desplegamos la aplicación en azzure
+-dotenv
+-uui
+
+
 ### Evidencias del proceso de creación del proyecto
 
 #### Frontend
