@@ -7,6 +7,12 @@ Proyecto que pretende que de manera interactiva los usuarios tengan acceso a inf
 
 Nuestra intención es crear una sitio web donde los usuarios puedan observar información como primera fase el diseño solo busca informar y presentar la información requerida. La segunda parte de este proyecto es la creación de una API, con datos de estos animalitos, para que más desarrolladores puedan aplicarlo a su proyecto.
 
+### Integrantes del Equipo Museo Virtual Blue Extinction ###
+----FrontEnd----
+*José Dimas Alejandro Espinosa Razo*
+
+----BackEnd----
+
 ### Requerimientos
 
 #### Frontend
