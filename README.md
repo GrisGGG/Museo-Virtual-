@@ -10,14 +10,14 @@ Nuestra intención es crear una sitio web donde los usuarios puedan observar inf
 ### Integrantes del Equipo Museo Virtual Blue Extinction ###
 ----FrontEnd----
 
-*José Dimas Alejandro Espinosa Razo*
+*José Dimas Alejandro Espinosa Razo*  
 *Pablo Yael Soto*
 
 ----BackEnd----
 
-*Angel David Moreno Guzmán*
-*Martin Otamendí*
-*Guadalupe Gachupin García*
+*Angel David Moreno Guzmán*  
+*Martin Otamendí*  
+*Guadalupe Gachupin García*  
 
 ### Requerimientos
 
