@@ -16,7 +16,7 @@ Nuestra intención es crear una sitio web donde los usuarios puedan observar inf
 ----BackEnd----
 
 *Angel David Moreno Guzmán*  
-*Martin Otamendí*  
+*Martin Otamendi Torres*  
 *Guadalupe Gachupin García*  
 
 ### Requerimientos
