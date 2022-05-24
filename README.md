@@ -11,10 +11,13 @@ Nuestra intención es crear una sitio web donde los usuarios puedan observar inf
 ----FrontEnd----
 
 *José Dimas Alejandro Espinosa Razo*
+*Pablo Yael Soto*
 
 ----BackEnd----
 
 *Angel David Moreno Guzmán*
+*Martin Otamendí*
+*Guadalupe Gachupin García*
 
 ### Requerimientos
 
