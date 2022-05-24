@@ -13,6 +13,7 @@ Nuestra intención es crear una sitio web donde los usuarios puedan observar inf
 *José Dimas Alejandro Espinosa Razo*
 
 ----BackEnd----
+
 *Angel David Moreno Guzmán*
 
 ### Requerimientos
