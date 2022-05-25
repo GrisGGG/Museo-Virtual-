@@ -22,13 +22,13 @@ Nuestra intención es crear una sitio web donde los usuarios puedan observar inf
 ### Requerimientos
 
 #### Frontend
-1. Diseño de las vistas del sitio web
-2. Implementación del diseño con las  tecnologías html y csss
+1. Diseño del sitio web en Figma mejor conocido como UI.
+2. Desarrollo web con tecnologías Html, Css y JavaScript.
 3. Características de funcionalidad, botones, transiciones.
-4. Conexión a la API
+4. Conexión a la API.
 
 #### Backend
-1. Delimitación de los atributos de la bd
+1. Delimitación de los atributos de la bd.
 2. Creación de la b.d
 3. Conexión a la bd
 4. Creación de enpoints para la consulta de datos  `animalesMarinos.Controller`
